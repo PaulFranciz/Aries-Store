@@ -37,3 +37,31 @@ next-env.d.ts
 
 # Large files
 *.node
+*.dylib
+**/esbuild
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Next.js specific
+.next/server/chunks/ssr/**/*.js.map
+.next/static/chunks/**/*.js.map
+next-server/server.runtime.prod.js.map
+
+# Lock files
+package-lock.json
+# yarn.lock (uncomment this line if you switch to npm in the future)
