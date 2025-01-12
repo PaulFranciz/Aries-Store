@@ -35,7 +35,7 @@ export default async function RootLayout({
           categories={categories}
           bannerMessage="New Lines Added | Enjoy up to 30% off"
           bannerLink={{
-            text: "Shop Now",
+            text: "Shop Now🇺🇸",
             url: "/sale"
           }}
         />
